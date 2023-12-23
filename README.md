@@ -1,5 +1,3 @@
----
-
 # The Grim Thing!
 
 *Welcome to The Grim Thing repository!*
@@ -11,8 +9,6 @@ This project endeavors to bring to life a digital rendition of the cherished soc
 ## Very Important Notice
 
 This project is NOT operational yet!
-
----
 
 ## Features (Future Plans)
 
