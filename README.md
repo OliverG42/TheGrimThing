@@ -26,4 +26,4 @@ This project is NOT operational yet!
 While the project isn't fully operational yet, you can still clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/your-username/blood-on-the-clocktower-player.git
+git clone https://github.com/OliverG42/TheGrimThing.git
