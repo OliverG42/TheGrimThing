@@ -1,3 +1,12 @@
+---
+name: Bug report
+about: Found something not quite right? Create a report to help the project improve!
+title: "[Bug]"
+labels: bug
+assignees: ''
+
+---
+
 # Bug Report
 
 ## Description
@@ -6,7 +15,7 @@ Briefly describe the issue.
 
 ## Steps to Reproduce
 
-This includes what character setup used, actions played, etc.
+Include details on the character setup used, actions played, etc.
 
 1. Step 1
 2. Step 2
@@ -22,8 +31,8 @@ Explain what actually happened.
 
 ## Environment
 
-- OS:
-- Version/Commit:
+- **OS:**
+- **Version/Commit:**
 
 ## Additional Info
 

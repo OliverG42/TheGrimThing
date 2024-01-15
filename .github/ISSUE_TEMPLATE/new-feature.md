@@ -1,4 +1,13 @@
-# New Feature Request
+---
+name: New Feature
+about: Are you OliverG42? Put this issue here in this lovely template!
+title: ''
+labels: enhancement
+assignees: ''
+
+---
+
+# New Feature
 
 ## Description
 
