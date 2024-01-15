@@ -1,0 +1,62 @@
+{
+    "Alchemist": {
+        "Version": "Experimental Characters",
+        "Type": "Townsfolk",
+        "Ability": "You have a not-in-play Minion ability.",
+        "Setup Modifier": null
+    },
+    "Amnesiac": {
+        "Version": "Experimental Characters",
+        "Type": "Townsfolk",
+        "Ability": "You do not know what your ability is. Each day, privately guess what it is: you learn how accurate you are.",
+        "Setup Modifier": null
+    },
+    "Artist": {
+        "Version": "Sects & Violets",
+        "Type": "Townsfolk",
+        "Ability": "Once per game, during the day, privately ask the Storyteller any yes/no question.",
+        "Setup Modifier": null
+    },
+    "Atheist": {
+        "Version": "Experimental Characters",
+        "Type": "Townsfolk",
+        "Ability": "The Storyteller can break the game rules, and if executed, good wins, even if you are dead. [No evil characters]",
+        "Setup Modifier": "No evil characters"
+    },
+    "Balloonist": {
+        "Version": "Experimental Characters",
+        "Type": "Townsfolk",
+        "Ability": "Each night, you learn 1 player of each character type, until there are no more types to learn. [+1 Outsider]",
+        "Setup Modifier": "+1 Outsider"
+    },
+    "Bounty Hunter": {
+        "Version": "Experimental Characters",
+        "Type": "Townsfolk",
+        "Ability": "You start knowing 1 evil player. If the player you know dies, you learn another evil player tonight. [1 Townsfolk is evil]",
+        "Setup Modifier": "1 Townsfolk is evil"
+    },
+    "Cannibal": {
+        "Version": "Experimental Characters",
+        "Type": "Townsfolk",
+        "Ability": "You have the ability of the recently killed executee. If they are evil, you are poisoned until a good player dies by execution.",
+        "Setup Modifier": null
+    },
+    "Chambermaid": {
+        "Version": "Bad Moon Rising",
+        "Type": "Townsfolk",
+        "Ability": "Each night, choose 2 alive players (not yourself): you learn how many woke tonight due to their ability.",
+        "Setup Modifier": null
+    },
+    "Chef": {
+        "Version": "Trouble Brewing",
+        "Type": "Townsfolk",
+        "Ability": "You start knowing how many pairs of evil players there are.",
+        "Setup Modifier": null
+    },
+    "Choirboy": {
+        "Version": "Experimental Characters",
+        "Type": "Townsfolk",
+        "Ability": "If the Demon kills the King, you learn which player is the Demon. [+the King]",
+        "Setup Modifier": "+the King"
+    }
+}
