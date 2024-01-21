@@ -1,21 +1,48 @@
 import json
 import re
+from time import sleep
+
 import requests
 from bs4 import BeautifulSoup
 
-character_versions = [
+CHARACTER_VERSIONS = [
     "Trouble Brewing",
     "Sects & Violets",
     "Bad Moon Rising",
     "Experimental Characters",
 ]
-character_types = ["Townsfolk", "Outsider", "Minion", "Demon", "Fabled"]
+
+# Add Fabled functionality
+CHARACTER_TYPES = ["Townsfolk", "Outsiders", "Minions", "Demons"]
+BASE_URL = "https://wiki.bloodontheclocktower.com/Category:"
 
 
-def gimmie_soup(timeout=2):
-    url = "https://wiki.bloodontheclocktower.com/Category:Townsfolk"
-    response = requests.get(url, timeout=timeout, verify=False)
-    return BeautifulSoup(response.text, "html.parser")
+def get_soup_with_retry(url, max_retries=5):
+    for attempt in range(max_retries):
+        try:
+            response = requests.get(url, timeout=1)
+            return BeautifulSoup(response.text, "html.parser")
+        except requests.Timeout:
+            print(f"Timeout occurred. Retrying... ({attempt + 1}/{max_retries})")
+            sleep(2)
+    print(f"Failed to fetch data for {url} after {max_retries} retries.")
+    exit(0)
+
+
+def get_all_soup():
+    combined_html = ""
+
+    for character_type in CHARACTER_TYPES:
+        full_url = BASE_URL + character_type
+        soup = get_soup_with_retry(full_url)
+        if soup:
+            combined_html += str(soup)
+        else:
+            print(
+                f"Failed to get soup from my query to {full_url} - got this instead: {soup}"
+            )
+
+    return BeautifulSoup(combined_html, "html.parser")
 
 
 def extract_version_and_type(soup):
@@ -25,10 +52,10 @@ def extract_version_and_type(soup):
 
     [char_version, char_type] = [cat_link.text for cat_link in categories_links]
 
-    if char_version not in character_versions:
+    if char_version not in CHARACTER_VERSIONS:
         raise ValueError(f"Unknown character version {char_version}")
 
-    if char_type not in character_types:
+    if char_type not in CHARACTER_TYPES:
         raise ValueError(f"Unknown character type {char_type}")
 
     return char_version, char_type
@@ -53,9 +80,7 @@ def extract_ability_data(soup):
 
 
 def fetch_character_info(character_url):
-    response = requests.get(character_url, timeout=1)
-    html_content = response.text
-    soup = BeautifulSoup(html_content, "html.parser")
+    soup = get_soup_with_retry(character_url)
 
     char_version, char_type = extract_version_and_type(soup)
 
@@ -70,7 +95,7 @@ def fetch_character_info(character_url):
 
 
 def fetch_characters_info(current_character_info):
-    soup = gimmie_soup()
+    soup = get_all_soup()
 
     char_info = {}
 
@@ -112,8 +137,6 @@ def merge_data_to_file(data, filename):
 
     except IOError as misc_error:
         print(f"Error merging and sorting data to file {filename}: {misc_error}")
-
-
 
 
 def read_data_from_file(filename):
