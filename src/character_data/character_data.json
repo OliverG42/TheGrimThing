@@ -701,6 +701,12 @@
         "Ability": "Each night*, choose a player: they die. Minions you kill keep their ability & poison 1 Townsfolk neighbor. [-1 Outsider]",
         "Setup Modifier": "-1 Outsider"
     },
+    "Village Idiot": {
+        "Version": "Experimental Characters",
+        "Type": "Townsfolk",
+        "Ability": "Each night, choose a player: you learn their alignment. [+0 to +2 Village Idiots. 1 of the extras is drunk]",
+        "Setup Modifier": "+0 to +2 Village Idiots. 1 of the extras is drunk"
+    },
     "Virgin": {
         "Version": "Trouble Brewing",
         "Type": "Townsfolk",
