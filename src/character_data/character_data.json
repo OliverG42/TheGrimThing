@@ -1,4 +1,16 @@
 {
+    "Acrobat": {
+        "Version": "Experimental Characters",
+        "Type": "Outsiders",
+        "Ability": "Each night*, if either good living neighbour is drunk or poisoned, you die.",
+        "Setup Modifier": null
+    },
+    "Al-Hadikhia": {
+        "Version": "Experimental Characters",
+        "Type": "Demons",
+        "Ability": "Each night*, choose 3 players (all players learn who): each silently chooses to live or die, but if all live, all die.",
+        "Setup Modifier": null
+    },
     "Alchemist": {
         "Version": "Experimental Characters",
         "Type": "Townsfolk",
@@ -17,6 +29,12 @@
         "Ability": "Once per game, during the day, privately ask the Storyteller any yes/no question.",
         "Setup Modifier": null
     },
+    "Assassin": {
+        "Version": "Bad Moon Rising",
+        "Type": "Minions",
+        "Ability": "Once per game, at night*, choose a player: they die, even if for some reason they could not.",
+        "Setup Modifier": null
+    },
     "Atheist": {
         "Version": "Experimental Characters",
         "Type": "Townsfolk",
@@ -29,16 +47,46 @@
         "Ability": "Each night, you learn 1 player of each character type, until there are no more types to learn. [+1 Outsider]",
         "Setup Modifier": "+1 Outsider"
     },
+    "Barber": {
+        "Version": "Sects & Violets",
+        "Type": "Outsiders",
+        "Ability": "If you died today or tonight, the Demon may choose 2 players (not another Demon) to swap characters.",
+        "Setup Modifier": null
+    },
+    "Baron": {
+        "Version": "Trouble Brewing",
+        "Type": "Minions",
+        "Ability": "There are extra Outsiders in play. [+2 Outsiders]",
+        "Setup Modifier": "+2 Outsiders"
+    },
+    "Boomdandy": {
+        "Version": "Experimental Characters",
+        "Type": "Minions",
+        "Ability": "If you are executed, all but 3 players die. 1 minute later, the player with the most players pointing at them, dies.",
+        "Setup Modifier": null
+    },
     "Bounty Hunter": {
         "Version": "Experimental Characters",
         "Type": "Townsfolk",
         "Ability": "You start knowing 1 evil player. If the player you know dies, you learn another evil player tonight. [1 Townsfolk is evil]",
         "Setup Modifier": "1 Townsfolk is evil"
     },
+    "Butler": {
+        "Version": "Trouble Brewing",
+        "Type": "Outsiders",
+        "Ability": "Each night, choose a player (not yourself): tomorrow, you may only vote if they are voting too.",
+        "Setup Modifier": null
+    },
     "Cannibal": {
         "Version": "Experimental Characters",
         "Type": "Townsfolk",
         "Ability": "You have the ability of the recently killed executee. If they are evil, you are poisoned until a good player dies by execution.",
+        "Setup Modifier": null
+    },
+    "Cerenovus": {
+        "Version": "Sects & Violets",
+        "Type": "Minions",
+        "Ability": "Each night, choose a player & a good character: they are mad they are this character tomorrow, or might be executed.",
         "Setup Modifier": null
     },
     "Chambermaid": {
@@ -58,5 +106,653 @@
         "Type": "Townsfolk",
         "Ability": "If the Demon kills the King, you learn which player is the Demon. [+the King]",
         "Setup Modifier": "+the King"
+    },
+    "Clockmaker": {
+        "Version": "Sects & Violets",
+        "Type": "Townsfolk",
+        "Ability": "You start knowing how many steps from the Demon to its nearest Minion.",
+        "Setup Modifier": null
+    },
+    "Courtier": {
+        "Version": "Bad Moon Rising",
+        "Type": "Townsfolk",
+        "Ability": "Once per game, at night, choose a character: they are drunk for 3 nights & 3 days.",
+        "Setup Modifier": null
+    },
+    "Cult Leader": {
+        "Version": "Experimental Characters",
+        "Type": "Townsfolk",
+        "Ability": "Each night, you become the alignment of an alive neighbour. If all good players choose to join your cult, your team wins.",
+        "Setup Modifier": null
+    },
+    "Damsel": {
+        "Version": "Experimental Characters",
+        "Type": "Outsiders",
+        "Ability": "All Minions know you are in play. If a Minion publicly guesses you (once), your team loses.",
+        "Setup Modifier": null
+    },
+    "Devil's Advocate": {
+        "Version": "Bad Moon Rising",
+        "Type": "Minions",
+        "Ability": "Each night, choose a living player (different to last night): if executed tomorrow, they don't die.",
+        "Setup Modifier": null
+    },
+    "Dreamer": {
+        "Version": "Sects & Violets",
+        "Type": "Townsfolk",
+        "Ability": "Each night, choose a player (not yourself or Travellers): you learn 1 good & 1 evil character, 1 of which is correct.",
+        "Setup Modifier": null
+    },
+    "Drunk": {
+        "Version": "Trouble Brewing",
+        "Type": "Outsiders",
+        "Ability": "You do not know you are the Drunk. You think you are a Townsfolk character, but you are not.",
+        "Setup Modifier": null
+    },
+    "Empath": {
+        "Version": "Trouble Brewing",
+        "Type": "Townsfolk",
+        "Ability": "Each night, you learn how many of your 2 alive neighbors are evil.",
+        "Setup Modifier": null
+    },
+    "Engineer": {
+        "Version": "Experimental Characters",
+        "Type": "Townsfolk",
+        "Ability": "Once per game, at night, choose which Minions or which Demon is in play.",
+        "Setup Modifier": null
+    },
+    "Evil Twin": {
+        "Version": "Sects & Violets",
+        "Type": "Minions",
+        "Ability": "You & an opposing player know each other. If the good player is executed, evil wins. Good can't win if you both live.",
+        "Setup Modifier": null
+    },
+    "Exorcist": {
+        "Version": "Bad Moon Rising",
+        "Type": "Townsfolk",
+        "Ability": "Each night*, choose a player (different to last night): the Demon, if chosen, learns who you are then doesn't wake tonight.",
+        "Setup Modifier": null
+    },
+    "Fang Gu": {
+        "Version": "Sects & Violets",
+        "Type": "Demons",
+        "Ability": "Each night*, choose a player: they die. The 1st Outsider this kills becomes an evil Fang Gu & you die instead. [+1 Outsider]",
+        "Setup Modifier": "+1 Outsider"
+    },
+    "Farmer": {
+        "Version": "Experimental Characters",
+        "Type": "Townsfolk",
+        "Ability": "If you die at night, an alive good player becomes a Farmer.",
+        "Setup Modifier": null
+    },
+    "Fearmonger": {
+        "Version": "Experimental Characters",
+        "Type": "Minions",
+        "Ability": "Each night, choose a player: if you nominate & execute them, their team loses. All players know if you choose a new player.",
+        "Setup Modifier": null
+    },
+    "Fisherman": {
+        "Version": "Experimental Characters",
+        "Type": "Townsfolk",
+        "Ability": "Once per game, during the day, visit the Storyteller for some advice to help your team win.",
+        "Setup Modifier": null
+    },
+    "Flowergirl": {
+        "Version": "Sects & Violets",
+        "Type": "Townsfolk",
+        "Ability": "Each night*, you learn if a Demon voted today.",
+        "Setup Modifier": null
+    },
+    "Fool": {
+        "Version": "Bad Moon Rising",
+        "Type": "Townsfolk",
+        "Ability": "The first time you die, you don't.",
+        "Setup Modifier": null
+    },
+    "Fortune Teller": {
+        "Version": "Trouble Brewing",
+        "Type": "Townsfolk",
+        "Ability": "Each night, choose 2 players: you learn if either is a Demon. There is a good player that registers as a Demon to you.",
+        "Setup Modifier": null
+    },
+    "Gambler": {
+        "Version": "Bad Moon Rising",
+        "Type": "Townsfolk",
+        "Ability": "Each night*, choose a player & guess their character: if you guess wrong, you die.",
+        "Setup Modifier": null
+    },
+    "General": {
+        "Version": "Experimental Characters",
+        "Type": "Townsfolk",
+        "Ability": "Each night, you learn which alignment the Storyteller believes is winning: good, evil, or neither.",
+        "Setup Modifier": null
+    },
+    "Goblin": {
+        "Version": "Experimental Characters",
+        "Type": "Minions",
+        "Ability": "If you publicly claim to be the Goblin when nominated & are executed that day, your team wins.",
+        "Setup Modifier": null
+    },
+    "Godfather": {
+        "Version": "Bad Moon Rising",
+        "Type": "Minions",
+        "Ability": "You start knowing which Outsiders are in play. If 1 died today, choose a player tonight: they die. [-1 or +1 Outsider]",
+        "Setup Modifier": "-1 or +1 Outsider"
+    },
+    "Golem": {
+        "Version": "Experimental Characters",
+        "Type": "Outsiders",
+        "Ability": "You may only nominate once per game. When you do, if the nominee is not the Demon, they die.",
+        "Setup Modifier": null
+    },
+    "Goon": {
+        "Version": "Bad Moon Rising",
+        "Type": "Outsiders",
+        "Ability": "Each night, the 1st player to choose you with their ability is drunk until dusk. You become their alignment.",
+        "Setup Modifier": null
+    },
+    "Gossip": {
+        "Version": "Bad Moon Rising",
+        "Type": "Townsfolk",
+        "Ability": "Each day, you may make a public statement. Tonight, if it was true, a player dies.",
+        "Setup Modifier": null
+    },
+    "Grandmother": {
+        "Version": "Bad Moon Rising",
+        "Type": "Townsfolk",
+        "Ability": "You start knowing a good player & their character. If the Demon kills them, you die too.",
+        "Setup Modifier": null
+    },
+    "Harpy": {
+        "Version": "Experimental Characters",
+        "Type": "Minions",
+        "Ability": "Each night, choose 2 players: tomorrow, the 1st player is mad that the 2nd is evil, or both might die.",
+        "Setup Modifier": null
+    },
+    "Hatter": {
+        "Version": "Experimental Characters",
+        "Type": "Outsiders",
+        "Ability": "If you died today or tonight, the Minion & Demon players may choose new Minion & Demon characters to be.",
+        "Setup Modifier": null
+    },
+    "Heretic": {
+        "Version": "Experimental Characters",
+        "Type": "Outsiders",
+        "Ability": "Whoever wins, loses & whoever loses, wins, even if you are dead.",
+        "Setup Modifier": null
+    },
+    "High Priestess": {
+        "Version": "Experimental Characters",
+        "Type": "Townsfolk",
+        "Ability": "Each night, learn which player the Storyteller believes you should talk to most.",
+        "Setup Modifier": null
+    },
+    "Huntsman": {
+        "Version": "Experimental Characters",
+        "Type": "Townsfolk",
+        "Ability": "Once per game, at night, choose a living player: the Damsel, if chosen, becomes a not-in-play Townsfolk. [+the Damsel]",
+        "Setup Modifier": "+the Damsel"
+    },
+    "Imp": {
+        "Version": "Trouble Brewing",
+        "Type": "Demons",
+        "Ability": "Each night*, choose a player: they die. If you kill yourself this way, a Minion becomes the Imp.",
+        "Setup Modifier": null
+    },
+    "Innkeeper": {
+        "Version": "Bad Moon Rising",
+        "Type": "Townsfolk",
+        "Ability": "Each night*, choose 2 players: they can't die tonight, but 1 is drunk until dusk.",
+        "Setup Modifier": null
+    },
+    "Investigator": {
+        "Version": "Trouble Brewing",
+        "Type": "Townsfolk",
+        "Ability": "You start knowing that 1 of 2 players is a particular Minion.",
+        "Setup Modifier": null
+    },
+    "Juggler": {
+        "Version": "Sects & Violets",
+        "Type": "Townsfolk",
+        "Ability": "On your 1st day, publicly guess up to 5 players' characters. That night, you learn how many you got correct.",
+        "Setup Modifier": null
+    },
+    "Kazali": {
+        "Version": "Experimental Characters",
+        "Type": "Demons",
+        "Ability": "Each night*, choose a player: they die. [You choose which players are which Minions. -? to +? Outsiders]",
+        "Setup Modifier": "You choose which players are which Minions. -? to +? Outsiders"
+    },
+    "King": {
+        "Version": "Experimental Characters",
+        "Type": "Townsfolk",
+        "Ability": "Each night, if the dead outnumber the living, you learn 1 alive character. The Demon knows who you are.",
+        "Setup Modifier": null
+    },
+    "Klutz": {
+        "Version": "Sects & Violets",
+        "Type": "Outsiders",
+        "Ability": "When you learn that you died, publicly choose 1 alive player: if they are evil, your team loses.",
+        "Setup Modifier": null
+    },
+    "Knight": {
+        "Version": "Experimental Characters",
+        "Type": "Townsfolk",
+        "Ability": "You start knowing 2 players that are not the Demon.",
+        "Setup Modifier": null
+    },
+    "Legion": {
+        "Version": "Experimental Characters",
+        "Type": "Demons",
+        "Ability": "Each night*, a player might die. Executions fail if only evil voted. You register as a Minion too. [Most players are Legion]",
+        "Setup Modifier": "Most players are Legion"
+    },
+    "Leviathan": {
+        "Version": "Experimental Characters",
+        "Type": "Demons",
+        "Ability": "If more than 1 good player is executed, evil wins. All players know you are in play. After day 5, evil wins.",
+        "Setup Modifier": null
+    },
+    "Librarian": {
+        "Version": "Trouble Brewing",
+        "Type": "Townsfolk",
+        "Ability": "You start knowing that 1 of 2 players is a particular Outsider. (Or that zero are in play.)",
+        "Setup Modifier": null
+    },
+    "Lil' Monsta": {
+        "Version": "Experimental Characters",
+        "Type": "Demons",
+        "Ability": "Each night, Minions choose who babysits Lil' Monsta's token & is the Demon. A player dies each night*. [+1 Minion]",
+        "Setup Modifier": "+1 Minion"
+    },
+    "Lleech": {
+        "Version": "Experimental Characters",
+        "Type": "Demons",
+        "Ability": "Each night*, choose a player: they die. You start by choosing an alive player: they are poisoned - you die if (& only if) they die.",
+        "Setup Modifier": null
+    },
+    "Lunatic": {
+        "Version": "Bad Moon Rising",
+        "Type": "Outsiders",
+        "Ability": "You think you are a Demon, but you are not. The Demon knows who you are & who you choose at night.",
+        "Setup Modifier": null
+    },
+    "Lycanthrope": {
+        "Version": "Experimental Characters",
+        "Type": "Townsfolk",
+        "Ability": "Each night*, choose an alive player: if good, they die, but they are the only player that can die tonight.",
+        "Setup Modifier": null
+    },
+    "Magician": {
+        "Version": "Experimental Characters",
+        "Type": "Townsfolk",
+        "Ability": "The Demon thinks you are a Minion. Minions think you are a Demon.",
+        "Setup Modifier": null
+    },
+    "Marionette": {
+        "Version": "Experimental Characters",
+        "Type": "Minions",
+        "Ability": "You think you are a good character, but you are not. The Demon knows who you are. [You neighbor the Demon]",
+        "Setup Modifier": "You neighbor the Demon"
+    },
+    "Mastermind": {
+        "Version": "Bad Moon Rising",
+        "Type": "Minions",
+        "Ability": "If the Demon dies by execution (ending the game), play for 1 more day. If a player is then executed, their team loses.",
+        "Setup Modifier": null
+    },
+    "Mathematician": {
+        "Version": "Sects & Violets",
+        "Type": "Townsfolk",
+        "Ability": "Each night, you learn how many players' abilities worked abnormally (since dawn) due to another character's ability.",
+        "Setup Modifier": null
+    },
+    "Mayor": {
+        "Version": "Trouble Brewing",
+        "Type": "Townsfolk",
+        "Ability": "If only 3 players live & no execution occurs, your team wins. If you die at night, another player might die instead.",
+        "Setup Modifier": null
+    },
+    "Mezepheles": {
+        "Version": "Experimental Characters",
+        "Type": "Minions",
+        "Ability": "You start knowing a secret word. The 1st good player to say this word becomes evil that night.",
+        "Setup Modifier": null
+    },
+    "Minstrel": {
+        "Version": "Bad Moon Rising",
+        "Type": "Townsfolk",
+        "Ability": "When a Minion dies by execution, all other players (except Travellers) are drunk until dusk tomorrow.",
+        "Setup Modifier": null
+    },
+    "Monk": {
+        "Version": "Trouble Brewing",
+        "Type": "Townsfolk",
+        "Ability": "Each night*, choose a player (not yourself): they are safe from the Demon tonight.",
+        "Setup Modifier": null
+    },
+    "Moonchild": {
+        "Version": "Bad Moon Rising",
+        "Type": "Outsiders",
+        "Ability": "When you learn that you died, publicly choose 1 alive player. Tonight, if it was a good player, they die.",
+        "Setup Modifier": null
+    },
+    "Mutant": {
+        "Version": "Sects & Violets",
+        "Type": "Outsiders",
+        "Ability": "If you are mad about being an Outsider, you might be executed.",
+        "Setup Modifier": null
+    },
+    "Nightwatchman": {
+        "Version": "Experimental Characters",
+        "Type": "Townsfolk",
+        "Ability": "Once per game, at night, choose a player: they learn who you are.",
+        "Setup Modifier": null
+    },
+    "No Dashii": {
+        "Version": "Sects & Violets",
+        "Type": "Demons",
+        "Ability": "Each night*, choose a player: they die. Your 2 Townsfolk neighbors are poisoned.",
+        "Setup Modifier": null
+    },
+    "Noble": {
+        "Version": "Experimental Characters",
+        "Type": "Townsfolk",
+        "Ability": "You start knowing 3 players, 1 and only 1 of which is evil.",
+        "Setup Modifier": null
+    },
+    "Ojo": {
+        "Version": "Experimental Characters",
+        "Type": "Demons",
+        "Ability": "Each night*, choose a character: they die. If they are not in play, the Storyteller chooses who dies.",
+        "Setup Modifier": null
+    },
+    "Oracle": {
+        "Version": "Sects & Violets",
+        "Type": "Townsfolk",
+        "Ability": "Each night*, you learn how many dead players are evil.",
+        "Setup Modifier": null
+    },
+    "Organ Grinder": {
+        "Version": "Experimental Characters",
+        "Type": "Minions",
+        "Ability": "All players keep their eyes closed when voting & the vote tally is secret. Votes for you only count if you vote.",
+        "Setup Modifier": null
+    },
+    "Pacifist": {
+        "Version": "Bad Moon Rising",
+        "Type": "Townsfolk",
+        "Ability": "Executed good players might not die.",
+        "Setup Modifier": null
+    },
+    "Philosopher": {
+        "Version": "Sects & Violets",
+        "Type": "Townsfolk",
+        "Ability": "Once per game, at night, choose a good character: gain that ability. If this character is in play, they are drunk.",
+        "Setup Modifier": null
+    },
+    "Pit-Hag": {
+        "Version": "Sects & Violets",
+        "Type": "Minions",
+        "Ability": "Each night*, choose a player & a character they become (if not in play). If a Demon is made, deaths tonight are arbitrary.",
+        "Setup Modifier": null
+    },
+    "Pixie": {
+        "Version": "Experimental Characters",
+        "Type": "Townsfolk",
+        "Ability": "You start knowing 1 in-play Townsfolk. If you were mad that you were this character, you gain their ability when they die.",
+        "Setup Modifier": null
+    },
+    "Plague Doctor": {
+        "Version": "Experimental Characters",
+        "Type": "Outsiders",
+        "Ability": "If you die, the Storyteller gains a not-in-play Minion ability.",
+        "Setup Modifier": null
+    },
+    "Po": {
+        "Version": "Bad Moon Rising",
+        "Type": "Demons",
+        "Ability": "Each night*, you may choose a player: they die. If your last choice was no-one, choose 3 players tonight.",
+        "Setup Modifier": null
+    },
+    "Poisoner": {
+        "Version": "Trouble Brewing",
+        "Type": "Minions",
+        "Ability": "Each night, choose a player: they are poisoned tonight and tomorrow day.",
+        "Setup Modifier": null
+    },
+    "Politician": {
+        "Version": "Experimental Characters",
+        "Type": "Outsiders",
+        "Ability": "If you were the player most responsible for your team losing, you change alignment & win, even if dead.",
+        "Setup Modifier": null
+    },
+    "Poppy Grower": {
+        "Version": "Experimental Characters",
+        "Type": "Townsfolk",
+        "Ability": "Minions & Demons do not know each other. If you die, they learn who each other are that night.",
+        "Setup Modifier": null
+    },
+    "Preacher": {
+        "Version": "Experimental Characters",
+        "Type": "Townsfolk",
+        "Ability": "Each night, choose a player: a Minion, if chosen, learns this. All chosen Minions have no ability.",
+        "Setup Modifier": null
+    },
+    "Professor": {
+        "Version": "Bad Moon Rising",
+        "Type": "Townsfolk",
+        "Ability": "Once per game, at night*, choose a dead player: if they are a Townsfolk, they are resurrected.",
+        "Setup Modifier": null
+    },
+    "Psychopath": {
+        "Version": "Experimental Characters",
+        "Type": "Minions",
+        "Ability": "Each day, before nominations, you may publicly choose a player: they die. If executed, you only die if you lose roshambo.",
+        "Setup Modifier": null
+    },
+    "Pukka": {
+        "Version": "Bad Moon Rising",
+        "Type": "Demons",
+        "Ability": "Each night, choose a player: they are poisoned. The previously poisoned player dies then becomes healthy.",
+        "Setup Modifier": null
+    },
+    "Puzzlemaster": {
+        "Version": "Experimental Characters",
+        "Type": "Outsiders",
+        "Ability": "1 player is drunk, even if you die. If you guess (once) who it is, learn the Demon player, but guess wrong & get false info.",
+        "Setup Modifier": null
+    },
+    "Ravenkeeper": {
+        "Version": "Trouble Brewing",
+        "Type": "Townsfolk",
+        "Ability": "If you die at night, you are woken to choose a player: you learn their character.",
+        "Setup Modifier": null
+    },
+    "Recluse": {
+        "Version": "Trouble Brewing",
+        "Type": "Outsiders",
+        "Ability": "You might register as evil & as a Minion or Demon, even if dead.",
+        "Setup Modifier": null
+    },
+    "Riot": {
+        "Version": "Experimental Characters",
+        "Type": "Demons",
+        "Ability": "Nominees die, but may nominate again immediately (on day 3, they must). After day 3, evil wins. [All Minions are Riot]",
+        "Setup Modifier": "All Minions are Riot"
+    },
+    "Sage": {
+        "Version": "Sects & Violets",
+        "Type": "Townsfolk",
+        "Ability": "If the Demon kills you, you learn that it is 1 of 2 players.",
+        "Setup Modifier": null
+    },
+    "Sailor": {
+        "Version": "Bad Moon Rising",
+        "Type": "Townsfolk",
+        "Ability": "Each night, choose an alive player: either you or they are drunk until dusk. You can't die.",
+        "Setup Modifier": null
+    },
+    "Saint": {
+        "Version": "Trouble Brewing",
+        "Type": "Outsiders",
+        "Ability": "If you die by execution, your team loses.",
+        "Setup Modifier": null
+    },
+    "Savant": {
+        "Version": "Sects & Violets",
+        "Type": "Townsfolk",
+        "Ability": "Each day, you may visit the Storyteller to learn 2 things in private: 1 is true & 1 is false.",
+        "Setup Modifier": null
+    },
+    "Scarlet Woman": {
+        "Version": "Trouble Brewing",
+        "Type": "Minions",
+        "Ability": "If there are 5 or more players alive & the Demon dies, you become the Demon. (Travellers don't count)",
+        "Setup Modifier": null
+    },
+    "Seamstress": {
+        "Version": "Sects & Violets",
+        "Type": "Townsfolk",
+        "Ability": "Once per game, at night, choose 2 players (not yourself): you learn if they are the same alignment.",
+        "Setup Modifier": null
+    },
+    "Shabaloth": {
+        "Version": "Bad Moon Rising",
+        "Type": "Demons",
+        "Ability": "Each night*, choose 2 players: they die. A dead player you chose last night might be regurgitated.",
+        "Setup Modifier": null
+    },
+    "Shugenja": {
+        "Version": "Experimental Characters",
+        "Type": "Townsfolk",
+        "Ability": "You start knowing if your closest evil player is clockwise or anti-clockwise. If equidistant, this info is arbitrary.",
+        "Setup Modifier": null
+    },
+    "Slayer": {
+        "Version": "Trouble Brewing",
+        "Type": "Townsfolk",
+        "Ability": "Once per game, during the day, publicly choose a player: if they are the Demon, they die.",
+        "Setup Modifier": null
+    },
+    "Snake Charmer": {
+        "Version": "Sects & Violets",
+        "Type": "Townsfolk",
+        "Ability": "Each night, choose an alive player: a chosen Demon swaps characters & alignments with you & is then poisoned.",
+        "Setup Modifier": null
+    },
+    "Snitch": {
+        "Version": "Experimental Characters",
+        "Type": "Outsiders",
+        "Ability": "Minions start knowing 3 not-in-play characters.",
+        "Setup Modifier": null
+    },
+    "Soldier": {
+        "Version": "Trouble Brewing",
+        "Type": "Townsfolk",
+        "Ability": "You are safe from the Demon.",
+        "Setup Modifier": null
+    },
+    "Spy": {
+        "Version": "Trouble Brewing",
+        "Type": "Minions",
+        "Ability": "Each night, you see the Grimoire. You might register as good & as a Townsfolk or Outsider, even if dead.",
+        "Setup Modifier": null
+    },
+    "Steward": {
+        "Version": "Experimental Characters",
+        "Type": "Townsfolk",
+        "Ability": "You start knowing 1 good player.",
+        "Setup Modifier": null
+    },
+    "Sweetheart": {
+        "Version": "Sects & Violets",
+        "Type": "Outsiders",
+        "Ability": "When you die, 1 player is drunk from now on.",
+        "Setup Modifier": null
+    },
+    "Tea Lady": {
+        "Version": "Bad Moon Rising",
+        "Type": "Townsfolk",
+        "Ability": "If both your alive neighbors are good, they can't die.",
+        "Setup Modifier": null
+    },
+    "Tinker": {
+        "Version": "Bad Moon Rising",
+        "Type": "Outsiders",
+        "Ability": "You might die at any time.",
+        "Setup Modifier": null
+    },
+    "Town Crier": {
+        "Version": "Sects & Violets",
+        "Type": "Townsfolk",
+        "Ability": "Each night*, you learn if a Minion nominated today.",
+        "Setup Modifier": null
+    },
+    "Undertaker": {
+        "Version": "Trouble Brewing",
+        "Type": "Townsfolk",
+        "Ability": "Each night*, you learn which character died by execution today.",
+        "Setup Modifier": null
+    },
+    "Vigormortis": {
+        "Version": "Sects & Violets",
+        "Type": "Demons",
+        "Ability": "Each night*, choose a player: they die. Minions you kill keep their ability & poison 1 Townsfolk neighbor. [-1 Outsider]",
+        "Setup Modifier": "-1 Outsider"
+    },
+    "Village Idiot": {
+        "Version": "Experimental Characters",
+        "Type": "Townsfolk",
+        "Ability": "Each night, choose a player: you learn their alignment. [+0 to +2 Village Idiots. 1 of the extras is drunk]",
+        "Setup Modifier": "+0 to +2 Village Idiots. 1 of the extras is drunk"
+    },
+    "Virgin": {
+        "Version": "Trouble Brewing",
+        "Type": "Townsfolk",
+        "Ability": "The 1st time you are nominated, if the nominator is a Townsfolk, they are executed immediately.",
+        "Setup Modifier": null
+    },
+    "Vizier": {
+        "Version": "Experimental Characters",
+        "Type": "Minions",
+        "Ability": "All players know who you are. You can not die during the day. If good voted, you may choose to execute immediately.",
+        "Setup Modifier": null
+    },
+    "Vortox": {
+        "Version": "Sects & Violets",
+        "Type": "Demons",
+        "Ability": "Each night*, choose a player; they die. Townsfolk abilities yield false info. Each day, if no-one is executed, evil wins.",
+        "Setup Modifier": null
+    },
+    "Washerwoman": {
+        "Version": "Trouble Brewing",
+        "Type": "Townsfolk",
+        "Ability": "You start knowing that 1 of 2 players is a particular Townsfolk.",
+        "Setup Modifier": null
+    },
+    "Widow": {
+        "Version": "Experimental Characters",
+        "Type": "Minions",
+        "Ability": "On your first night, look at the Grimoire & choose a player: they are poisoned. 1 good player knows a Widow is in play.",
+        "Setup Modifier": null
+    },
+    "Witch": {
+        "Version": "Sects & Violets",
+        "Type": "Minions",
+        "Ability": "Each night, choose a player: if they nominate tomorrow, they die. If just 3 players live, you lose this ability.",
+        "Setup Modifier": null
+    },
+    "Yaggababble": {
+        "Version": "Experimental Characters",
+        "Type": "Demons",
+        "Ability": "You start knowing a secret phrase. For each time you said it publicly today, a player might die",
+        "Setup Modifier": null
+    },
+    "Zombuul": {
+        "Version": "Bad Moon Rising",
+        "Type": "Demons",
+        "Ability": "Each night*, if no-one died today, choose a player: they die. The 1st time you die, you live but register as dead.",
+        "Setup Modifier": null
     }
 }
